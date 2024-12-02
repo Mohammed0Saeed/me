@@ -187,6 +187,9 @@ export default {
       name: "Mohammed Saeed",
     };
   },
+  mounted() {
+    document.title = "Mohammed Saeed";
+  },
   methods: {
     clickedNav: function () {
       let btn = document.getElementById("btn");
